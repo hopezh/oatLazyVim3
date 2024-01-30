@@ -4,6 +4,22 @@
 
 local opt = vim.opt
 
+-- display ---------------------------------------------------------------------
+opt.background = "dark"
+opt.colorcolumn = "80" -- highlight the 80th column, nil when virt-column.nvim is used
+opt.number = true
+opt.relativenumber = true
+opt.signcolumn = "yes:3" -- always show signcolumn, max width=3
+
+-- tabs & indentation ----------------------------------------------------------
+opt.autoindent = true
+opt.shiftwidth = 4
+opt.showtabline = 2 -- always show tab header
+opt.smarttab = true
+opt.softtabstop = 4
+opt.tabstop = 4
+opt.list = false
+
 -- blinking cursor -------------------------------------------------------------
 opt.guicursor =
     "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
