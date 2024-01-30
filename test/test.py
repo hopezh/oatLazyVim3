@@ -17,7 +17,10 @@ app.layout = html.Div(
 )
 
 
-@callback(Output("graph-content", "figure"), Input("dropdown-selection", "value"))
+@callback(
+    Output("graph-content", "figure"),
+    Input("dropdown-selection", "value")
+)
 def update_graph(value):
     dff = df[df.country == value]
     return px.line(dff, x="year", y="pop")
