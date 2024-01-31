@@ -35,5 +35,5 @@ vim.cmd("set noswapfile")
 opt.fileformat = "unix"
 
 -- stop auto format on save ----------------------------------------------------
-vim.g.autoformat = false -- globally
-vim.b.autoformat = false -- buffer-local
+-- vim.g.autoformat = false -- globally
+-- vim.b.autoformat = false -- buffer-local
