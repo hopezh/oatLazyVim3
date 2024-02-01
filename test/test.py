@@ -12,7 +12,7 @@ b= 2
 c =3
 # fmt: on
 
-app = Dash(__name__), 
+app = Dash(__name__)
 
 app.layout = html.Div(
     [
