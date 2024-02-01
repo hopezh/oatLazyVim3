@@ -6,6 +6,12 @@ df = pd.read_csv(
     "https://raw.githubusercontent.com/plotly/datasets/master/gapminder_unfiltered.csv"
 )
 
+# fmt: off
+a = 1
+b= 2
+c =3
+# fmt: on
+
 app = Dash(__name__)
 
 app.layout = html.Div(
