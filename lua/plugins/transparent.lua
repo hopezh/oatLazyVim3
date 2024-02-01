@@ -5,7 +5,7 @@ return {
 
     keys = {
         {
-            "<leader>zt",
+            "<leader>zp",
             "<cmd>TransparentToggle<cr>",
             desc = "Toggle transparent",
         },
@@ -34,7 +34,7 @@ return {
             "NonText",
             "SignColumn",
             "EndOfBuffer",
-            -- 'CursorLineNr',
+            "CursorLineNr",
         },
 
         extra_groups = {
